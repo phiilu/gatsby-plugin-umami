@@ -11,8 +11,8 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
   const options = {
     src: pluginOptions.srcUrl,
     "data-website-id": pluginOptions.websiteId,
-    "data-auto-track": pluginOptions.autoTrack || "true",
-    "data-do-not-track": pluginOptions.doNotTrack || "true"
+    "data-auto-track": pluginOptions.autoTrack || true,
+    "data-do-not-track": pluginOptions.respectDoNotTrack || true
   }
 
   return setPostBodyComponents([<script async defer {...options} />])
