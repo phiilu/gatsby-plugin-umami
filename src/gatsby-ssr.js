@@ -15,5 +15,5 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
     "data-do-not-track": pluginOptions.respectDoNotTrack || true
   }
 
-  return setPostBodyComponents([<script async defer {...options} />])
+  return setPostBodyComponents([<script key="gastby-plugin-umami" async defer {...options} />])
 }
