@@ -1,7 +1,7 @@
 {
     "name": "gatsby-plugin-umami",
     "description": "Gatsby plugin to add Umami to a Gatsby site",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Florian Kapfenberger <florian@kapfenberger.me>",
     "license": "MIT",
     "repository": {
