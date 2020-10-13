@@ -11,8 +11,8 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
   const options = {
     src: pluginOptions.srcUrl,
     "data-website-id": pluginOptions.websiteId,
-    "data-auto-track": pluginOptions.autoTrack || true,
-    "data-do-not-track": pluginOptions.respectDoNotTrack || true
+    "data-auto-track": 'autoTrack' in pluginOptions ? pluginOptions.autoTrack : true,
+    "data-do-not-track": 'respectDoNotTrack' in pluginOptions ? pluginOptions.respectDoNotTrack : true
   }
 
   return setPostBodyComponents([<script key="gastby-plugin-umami" async defer {...options} />])
