@@ -22,6 +22,19 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "phiilu",
+      "name": "Florian Kapfenberger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8149519?v=4",
+      "profile": "https://phiilu.com",
+      "contributions": [
+        "question",
+        "doc",
+        "review",
+        "code",
+        "tool"
+      ]
     }
   ],
   "contributorsPerLine": 7,
