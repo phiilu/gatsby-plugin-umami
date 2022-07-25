@@ -13,8 +13,8 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
     "data-website-id": pluginOptions.websiteId,
     "data-auto-track": 'autoTrack' in pluginOptions ? pluginOptions.autoTrack : true,
     "data-do-not-track": 'respectDoNotTrack' in pluginOptions ? pluginOptions.respectDoNotTrack : true,
-    "data-cache": 'dataCache' in pluginOptions ? pluginOptions.dataCache : true,
-    "data-domains": 'dataDomains' in pluginOptions ? pluginOptions.dataDomains : true
+    "data-cache": 'dataCache' in pluginOptions ? pluginOptions.dataCache : false,
+    "data-domains": 'dataDomains' in pluginOptions ? pluginOptions.dataDomains : ''
   }
 
   return setPostBodyComponents([<script key="gastby-plugin-umami" async defer {...options} />])
