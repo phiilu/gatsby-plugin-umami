@@ -13,6 +13,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "mattsbanner",
+      "name": "Matt Banner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49304331?v=4",
+      "profile": "http://mattbanner.co.uk",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
