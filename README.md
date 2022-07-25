@@ -17,7 +17,9 @@ plugins: [
       srcUrl: 'https://umami.example.com/umami.js',
       includeInDevelopment: false,
       autoTrack: true,
-      respectDoNotTrack: true
+      respectDoNotTrack: true,
+      dataCache: false,
+      dataDomains: 'example.com,example2.com'
     },
   },
 ]
@@ -30,5 +32,7 @@ plugins: [
 - `includeInDevelopment` - Optional. Defaults to `false`
 - `autoTrack` - Optional. Enables [umami auto track](https://umami.is/docs/tracker-config) feature. Defaults to `true`
 - `respectDoNotTrack` - Optional. Enables [umami respect Do Not Track](https://umami.is/docs/tracker-config) feature. Defaults to `true`
+- `dataCache` - Optional. Improves performance. Defaults to `false`
+- `dataDomains` - Optional. Allows tracking only on the specified domains. No default.
 
 
