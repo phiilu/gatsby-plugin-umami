@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "will-weiss",
+      "name": "William Weiss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6589960?v=4",
+      "profile": "http://morehumaninternet.org",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "gatsby-plugin-umami",
+  "projectOwner": "phiilu",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
