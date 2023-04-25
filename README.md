@@ -21,7 +21,7 @@ plugins: [
     resolve: `gatsby-plugin-umami`,
     options: {
       websiteId: "UMAMI_WEBSITE_ID",
-      srcUrl: "https://umami.example.com/umami.js",
+      srcUrl: "https://umami.example.com/script.js",
       includeInDevelopment: false,
       autoTrack: true,
       respectDoNotTrack: true,
@@ -35,7 +35,7 @@ plugins: [
 ## Configuration
 
 - `websiteId` - Required. The website id of your umami site
-- `srcUrl` - Required. The url to the hosted `umami.js`
+- `srcUrl` - Required. The url to the hosted `script.js`
 - `includeInDevelopment` - Optional. Defaults to `false`
 - `autoTrack` - Optional. Enables [umami auto track](https://umami.is/docs/tracker-config) feature. Defaults to `true`
 - `respectDoNotTrack` - Optional. Enables [umami respect Do Not Track](https://umami.is/docs/tracker-config) feature. Defaults to `true`
