@@ -1,11 +1,15 @@
 # gatsby-plugin-umami
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Easily add [Umami](https://umami.is/) to your Gatsby site.
 
 ## Install
+
 `npm install --save gatsby-plugin-umami`
 
 ## How to use
@@ -16,16 +20,16 @@ plugins: [
   {
     resolve: `gatsby-plugin-umami`,
     options: {
-      websiteId: 'UMAMI_WEBSITE_ID',
-      srcUrl: 'https://umami.example.com/umami.js',
+      websiteId: "UMAMI_WEBSITE_ID",
+      srcUrl: "https://umami.example.com/umami.js",
       includeInDevelopment: false,
       autoTrack: true,
       respectDoNotTrack: true,
       dataCache: false,
-      dataDomains: 'example.com,example2.com'
+      dataDomains: "example.com,example2.com",
     },
   },
-]
+];
 ```
 
 ## Configuration
@@ -37,8 +41,6 @@ plugins: [
 - `respectDoNotTrack` - Optional. Enables [umami respect Do Not Track](https://umami.is/docs/tracker-config) feature. Defaults to `true`
 - `dataCache` - Optional. Improves performance. Defaults to `false`
 - `dataDomains` - Optional. Allows tracking only on the specified domains. No default.
-
-
 
 ## Contributors ✨
 
